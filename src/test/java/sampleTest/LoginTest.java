@@ -28,6 +28,8 @@ public class LoginTest extends Base {
 		System.out.println("Login Menu is clicked"+loginpage);
 
 		loginpage.usernamefield().sendKeys(email);
+		
+		System.out.println("Email id is entered successfully"+loginpage);
 
 	}
 
