@@ -25,7 +25,7 @@ public class LoginTest extends Base {
 
 		loginpage.loginMenu().click();
 		
-		System.out.println("Button is clicked"+loginpage);
+		System.out.println("Login Menu is clicked"+loginpage);
 
 		loginpage.usernamefield().sendKeys(email);
 
