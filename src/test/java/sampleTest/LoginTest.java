@@ -24,6 +24,8 @@ public class LoginTest extends Base {
 		LoginPage loginpage = new LoginPage(driver);
 
 		loginpage.loginMenu().click();
+		
+		System.out.println("Button is cliecked"+loginpage);
 
 		loginpage.usernamefield().sendKeys(email);
 
